@@ -65,7 +65,21 @@ body {
     & .container__title {
         font-size: 1.5rem;
         font-weight: 800;
-        margin-bottom: var(--spacing-300);
+        margin-bottom: var(--spacing-150);
+
+        & a {
+            text-decoration: none;
+            color: var(--gray-950);
+        }
+
+        & a:visited {
+            color: var(--gray-950);
+        }
+
+        & a:hover {
+            color: var(--yellow);
+            cursor: pointer;
+        }
     }
 
     & .container__description {
