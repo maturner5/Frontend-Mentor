@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --font: "Outfit";
+    --font-light: 400;
+    --font-heavy: 700;
+
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #d5e1ef;
+    --white: #ffffff;
+
+    --spacing-500: 40px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: var(--font);
+    background-color: var(--slate-300);
+}
+
+.container {
+    /* using position absolute and setting top, right, bottom, left to 0 to center container to screen */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 320px;
+    height: 499px;
+    background-color: var(--white);
+    padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+    border-radius: var(--spacing-300);
+
+    & img {
+        width: 100%;
+        /* height: 100%; */
+        border-radius: 10px;
+        margin-bottom: var(--spacing-300);
+    }
+
+    & .text {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    & .text h1 {
+        font-weight: var(--font-heavy);
+        font-size: 1.3em;
+        margin: 0 0 var(--spacing-200) 0;
+        color: var(--slate-900);
+    }
+
+    & .text p {
+        font-weight: var(--font-light);
+        margin: var(--spacing-200) 0;
+        color: var(--slate-500);
+    }
+}
