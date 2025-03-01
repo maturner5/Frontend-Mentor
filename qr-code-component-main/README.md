@@ -38,11 +38,11 @@ This is the code snippet:
 
 ```css
 position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
 ```
 
 ## Author
