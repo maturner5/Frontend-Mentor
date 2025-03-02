@@ -12,8 +12,6 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
   - [Areas of concern](#areas-of-concern)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -21,7 +19,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ![qr-code-component-screenshot](https://github.com/user-attachments/assets/ff3e7d18-c2a1-49ea-8ba7-869590539149)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://maturner5.github.io/Frontend-Mentor/qr-code-component-main/index.html)
 
 ## My process
 
