@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--grey-900);
+    color: var(--white);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-800);
+    padding: 24px 24px 12px 24px;
+    border-radius: 15px;
+    margin: 0 1rem;
+
+    & img {
+        border-radius: 50%;
+        width: 30%;
+    }
+
+    & h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    & .container__location {
+        color: var(--green);
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    & .container__quote {
+        font-size: 1rem;
+        margin: 14px 0 10px 0;
+        max-width: 100%;
+    }
+
+    & ul {
+        padding: 0;
+        width: 100%;
+
+        & li {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            width: 100%;
+
+            & button {
+                width: 100%;
+                padding: 1rem 0;
+                margin-bottom: 1rem;
+                font-weight: 600;
+                color: var(--white);
+                border: 0;
+                background-color: var(--grey-700);
+                border-radius: 7px;
+            }
+
+            & button:hover {
+                cursor: pointer;
+                background-color: var(--green);
+                color: black;
+            }
+        }
+    }  
+
+    & .container__buttons__last-button {
+        margin-bottom: 0;
+    }
+}
