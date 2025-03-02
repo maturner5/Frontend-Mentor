@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://maturner5.github.io/Frontend-Mentor/social-links-profile-main/index.html)
 
 ## My process
 
